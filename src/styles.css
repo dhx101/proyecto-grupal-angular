@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.home--page__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.home--page__title{
+    padding-left: 60px;
+    width: auto;
+    font-size: 40px;
+    background-color: #ccc;
+    padding-top: -50px;
+}
+
+.home--page__text{
+    width: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+.home--page__list{
+ padding-left: 80px;
+ list-style: none;
+ margin-bottom: 30px;
+ font-size: 20px;
+ list-style: circle;
+}

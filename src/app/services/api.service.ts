@@ -6,8 +6,30 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
 
+  public baseUrl: string = "http://localhost:3000/games";
+  public gamesUrl: string = `${this.baseUrl}/`
+
   constructor( private http:HttpClient) { }
 
-  
+  public getGames(){
+    return this.http.get(this.gamesUrl)
+    
+      }
+    
+      public gamesById (id:string){
+        return this.http.get(`${this.gamesUrl}/${id}`)
+      }
+    
+      public postGames (producto:any){
+    
+        return this.http.post(this.gamesUrl, producto)
+      }
+      public deleteGames (id:string){
+    return this.http.delete (`${this.gamesUrl}/${id}`)
+    
+      }
+      public modificarGames (id:string, game:any){
+        return this.http.patch(`${this.gamesUrl}/${id}`, game)
+      }
 
 }

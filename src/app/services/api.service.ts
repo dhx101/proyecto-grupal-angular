@@ -20,10 +20,10 @@ export class ApiService {
         return this.http.get(`${this.gamesUrl}/${id}`)
       }
     
-      public postGames (producto:any){
-    
-        return this.http.post(this.gamesUrl, producto)
+      public postGames (game:any){
+        return this.http.post(this.gamesUrl, game)
       }
+      
       public deleteGames (id:string){
     return this.http.delete (`${this.gamesUrl}/${id}`)
     

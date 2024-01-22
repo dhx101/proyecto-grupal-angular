@@ -4,7 +4,7 @@
       </div>
       <div class="cuestionario">
         <div>
-          <input type="text" placeholder="Nombre del juego" [(ngModel)]="games.name" />
+          <input type="text" placeholder="Nombre del juego" [(ngModel)]="games.title" />
         </div>
         <div>
           <input type="text" placeholder="Genero" [(ngModel)]="games.genre" />
@@ -12,9 +12,7 @@
         <div>
           <input type="text" placeholder="Plataforma" [(ngModel)]="games.platform" />
         </div>
-        <div>
-          <input type="text" placeholder="Ruta de la imagen" [(ngModel)]="games.image"/>
-        </div>
+      
         <div>
             <input type="text" placeholder="Fecha de salida" [(ngModel)]="games.relese_date"/>
         </div>
@@ -23,27 +21,31 @@
         </div>  
       <div>
         <input type="text" placeholder="Desarolladora" [(ngModel)]="games.developer"/>
-    </div>\>
+    </div> 
     <div>
         <input type="text" placeholder="Editora" [(ngModel)]="games.publisher"/>
     </div>
+    <div>
+        <input type="text" placeholder="Ruta de la imagen" [(ngModel)]="games.image"/>
+      </div>
+    
 </div>
       <div class="boton">
-        <button (click)="addGame()">Añadir</button>
+        <button routerLink=" /content" (click)="addGame()">Añadir</button>
        
       </div>
     </div>
     <div class=" principal">
     <div class="pre">
-        <img src = "{{games.image}}" alt = "{{games.name}}">
-        <p>{{games.name}}</p>
-        <p>{{games.genre}}</p>
-        <p>{{games.platform}}</p>
-        <p>{{games.image}}</p>
-        <p>{{games.relese_date}}</p>
-        <p>{{games.description}}</p>
-        <p>{{games.developer}}</p>
-        <p>{{games.publisher}}</p>
+       
+        <p> Titulo: {{games.title}}</p>
+        <p>Genero: {{games.genre}}</p>
+        <p>Plataforma: {{games.platform}}</p>
+        <p> Fecha de salida: {{games.relese_date}}</p>
+        <p> Descripción: {{games.description}}</p>
+        <p> Desarrolladora: {{games.developer}}</p>
+        <p> Editora: {{games.publisher}}</p>
+        <img src = "{{games.image}}" alt = "{{games.title}}">
       </div> 
        
     

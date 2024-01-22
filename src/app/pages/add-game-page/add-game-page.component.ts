@@ -21,7 +21,8 @@ export class AddGamePageComponent {
     release_date: "",
     description: "",
     developer: "",
-    publisher: ""
+    publisher: "",
+    image: ""
   }
 
   addGame(){

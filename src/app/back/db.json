@@ -1,7 +1,5 @@
-{
-  "games": [
+{"games":[
     {
-
        "id": 1,
        "title": "The Legend of Zelda: Breath of the Wild",
        "genre": "Action-Adventure",
@@ -55,7 +53,6 @@
        "developer": "Nintendo EPD",
        "publisher": "Nintendo",
        "image": "https://m.media-amazon.com/images/I/91SF0Tzmv4L._AC_UF894,1000_QL80_.jpg"
-
     }
-  ]
-}
+   
+ ]}

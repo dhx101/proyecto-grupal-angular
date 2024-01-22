@@ -7,7 +7,8 @@
        "release_date": "2017-03-03",
        "description": "Embark on a journey as Link in the open-world adventure of Hyrule.",
        "developer": "Nintendo EPD",
-       "publisher": "Nintendo"
+       "publisher": "Nintendo",
+       "image" : "https://m.media-amazon.com/images/I/81KGsbq8ekL.jpg" 
     },
     {
        "id": 2,
@@ -17,7 +18,8 @@
        "release_date": "2018-10-26",
        "description": "Arthur Morgan and the Van der Linde gang face the challenges of the Wild West.",
        "developer": "Rockstar Studios",
-       "publisher": "Rockstar Games"
+       "publisher": "Rockstar Games",
+       "image": "https://m.media-amazon.com/images/I/81YdZRdE1BL._AC_UF894,1000_QL80_.jpg"
     },
     {
        "id": 3,
@@ -27,7 +29,8 @@
        "release_date": "2021-10-01",
        "description": "Experience the latest installment in the popular FIFA football simulation series.",
        "developer": "EA Vancouver",
-       "publisher": "Electronic Arts"
+       "publisher": "Electronic Arts",
+      "image ": "https://m.media-amazon.com/images/I/81P6dWIU+EL.jpg"
     },
     {
        "id": 4,
@@ -37,7 +40,8 @@
        "release_date": "2020-12-10",
        "description": "Explore the futuristic open world of Night City in this action-packed RPG.",
        "developer": "CD Projekt",
-       "publisher": "CD Projekt"
+       "publisher": "CD Projekt",
+       "image":"https://media.vandal.net/m/20029/cyberpunk-2077-201961217172698_1.jpg"
     },
     {
        "id": 5,
@@ -47,7 +51,8 @@
        "release_date": "2017-10-27",
        "description": "Join Mario on a globe-trotting adventure to save Princess Peach from Bowser.",
        "developer": "Nintendo EPD",
-       "publisher": "Nintendo"
+       "publisher": "Nintendo",
+       "image": "https://m.media-amazon.com/images/I/91SF0Tzmv4L._AC_UF894,1000_QL80_.jpg"
     }
    
  ]}

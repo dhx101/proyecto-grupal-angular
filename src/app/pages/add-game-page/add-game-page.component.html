@@ -20,22 +20,30 @@
         </div>
         <div>
             <input type="text" placeholder="Descripcion" [(ngModel)]="games.description"/>
-        </div>
-      </div>
+        </div>  
       <div>
-        <input type="text" placeholder="P" [(ngModel)]="games.relese_date"/>
+        <input type="text" placeholder="Desarolladora" [(ngModel)]="games.developer"/>
+    </div>\>
+    <div>
+        <input type="text" placeholder="Editora" [(ngModel)]="games.publisher"/>
     </div>
+</div>
       <div class="boton">
-        <button (click)="addProducto()">Guardar</button>
-        <button (click)="deleteProducto()">Borrar</button>
+        <button (click)="addGame()">Añadir</button>
+       
       </div>
     </div>
     <div class=" principal">
     <div class="pre">
-        <img src = "{{Productos.image}}" alt = "{{Productos.name}}">
-        <p>{{Productos.name}}</p>
-        <p>{{Productos.price}}</p>
-        <p>{{Productos.description}}</p>
+        <img src = "{{games.image}}" alt = "{{games.name}}">
+        <p>{{games.name}}</p>
+        <p>{{games.genre}}</p>
+        <p>{{games.platform}}</p>
+        <p>{{games.image}}</p>
+        <p>{{games.relese_date}}</p>
+        <p>{{games.description}}</p>
+        <p>{{games.developer}}</p>
+        <p>{{games.publisher}}</p>
       </div> 
        
     

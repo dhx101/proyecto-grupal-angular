@@ -1,1 +1,44 @@
-<p>add-game-page works!</p>
+<div>
+    <div class="titulo">
+        <h3>Añadir juego</h3>
+      </div>
+      <div class="cuestionario">
+        <div>
+          <input type="text" placeholder="Nombre del juego" [(ngModel)]="games.name" />
+        </div>
+        <div>
+          <input type="text" placeholder="Genero" [(ngModel)]="games.genre" />
+        </div>
+        <div>
+          <input type="text" placeholder="Plataforma" [(ngModel)]="games.platform" />
+        </div>
+        <div>
+          <input type="text" placeholder="Ruta de la imagen" [(ngModel)]="games.image"/>
+        </div>
+        <div>
+            <input type="text" placeholder="Fecha de salida" [(ngModel)]="games.relese_date"/>
+        </div>
+        <div>
+            <input type="text" placeholder="Descripcion" [(ngModel)]="games.description"/>
+        </div>
+      </div>
+      <div>
+        <input type="text" placeholder="P" [(ngModel)]="games.relese_date"/>
+    </div>
+      <div class="boton">
+        <button (click)="addProducto()">Guardar</button>
+        <button (click)="deleteProducto()">Borrar</button>
+      </div>
+    </div>
+    <div class=" principal">
+    <div class="pre">
+        <img src = "{{Productos.image}}" alt = "{{Productos.name}}">
+        <p>{{Productos.name}}</p>
+        <p>{{Productos.price}}</p>
+        <p>{{Productos.description}}</p>
+      </div> 
+       
+    
+    
+    </div>
+    

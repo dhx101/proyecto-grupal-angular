@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-content-page',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './content-page.component.css'
 })
 export class ContentPageComponent {
-
+  @Input() games: any[]=[]
 }

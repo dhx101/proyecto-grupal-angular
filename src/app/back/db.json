@@ -1,53 +1,54 @@
-{"games":[
+{
+  "games": [
     {
-       "id": 1,
-       "title": "The Legend of Zelda: Breath of the Wild",
-       "genre": "Action-Adventure",
-       "platform": "Nintendo Switch",
-       "release_date": "2017-03-03",
-       "description": "Embark on a journey as Link in the open-world adventure of Hyrule.",
-       "developer": "Nintendo EPD",
-       "publisher": "Nintendo"
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "genre": "Action-Adventure",
+      "platform": "Nintendo Switch",
+      "release_date": "2017-03-03",
+      "description": "Embark on a journey as Link in the open-world adventure of Hyrule.",
+      "developer": "Nintendo EPD",
+      "publisher": "Nintendo"
     },
     {
-       "id": 2,
-       "title": "Red Dead Redemption 2",
-       "genre": "Action-Adventure",
-       "platform": "PlayStation 4, Xbox One, PC",
-       "release_date": "2018-10-26",
-       "description": "Arthur Morgan and the Van der Linde gang face the challenges of the Wild West.",
-       "developer": "Rockstar Studios",
-       "publisher": "Rockstar Games"
+      "id": 2,
+      "title": "Red Dead Redemption 2",
+      "genre": "Action-Adventure",
+      "platform": "PlayStation 4, Xbox One, PC",
+      "release_date": "2018-10-26",
+      "description": "Arthur Morgan and the Van der Linde gang face the challenges of the Wild West.",
+      "developer": "Rockstar Studios",
+      "publisher": "Rockstar Games"
     },
     {
-       "id": 3,
-       "title": "FIFA 22",
-       "genre": "Sports",
-       "platform": "PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, PC",
-       "release_date": "2021-10-01",
-       "description": "Experience the latest installment in the popular FIFA football simulation series.",
-       "developer": "EA Vancouver",
-       "publisher": "Electronic Arts"
+      "id": 3,
+      "title": "FIFA 22",
+      "genre": "Sports",
+      "platform": "PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, PC",
+      "release_date": "2021-10-01",
+      "description": "Experience the latest installment in the popular FIFA football simulation series.",
+      "developer": "EA Vancouver",
+      "publisher": "Electronic Arts"
     },
     {
-       "id": 4,
-       "title": "Cyberpunk 2077",
-       "genre": "Action RPG",
-       "platform": "PlayStation 4, Xbox One, PC",
-       "release_date": "2020-12-10",
-       "description": "Explore the futuristic open world of Night City in this action-packed RPG.",
-       "developer": "CD Projekt",
-       "publisher": "CD Projekt"
+      "id": 4,
+      "title": "Cyberpunk 2077",
+      "genre": "Action RPG",
+      "platform": "PlayStation 4, Xbox One, PC",
+      "release_date": "2020-12-10",
+      "description": "Explore the futuristic open world of Night City in this action-packed RPG.",
+      "developer": "CD Projekt",
+      "publisher": "CD Projekt"
     },
     {
-       "id": 5,
-       "title": "Super Mario Odyssey",
-       "genre": "Platformer",
-       "platform": "Nintendo Switch",
-       "release_date": "2017-10-27",
-       "description": "Join Mario on a globe-trotting adventure to save Princess Peach from Bowser.",
-       "developer": "Nintendo EPD",
-       "publisher": "Nintendo"
+      "id": 5,
+      "title": "Super Mario Odyssey",
+      "genre": "Platformer",
+      "platform": "Nintendo Switch",
+      "release_date": "2017-10-27",
+      "description": "Join Mario on a globe-trotting adventure to save Princess Peach from Bowser.",
+      "developer": "Nintendo EPD",
+      "publisher": "Nintendo"
     }
-   
- ]}
+  ]
+}

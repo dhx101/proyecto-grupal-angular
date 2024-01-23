@@ -4,6 +4,8 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { ContentPageComponent } from './pages/content-page/content-page.component';
 import { AddGamePageComponent } from './pages/add-game-page/add-game-page.component';
 import { GameDetailComponent } from './pages/game-detail/game-detail.component';
+import { EditGamePageComponent } from './pages/edit-game-page/edit-game-page.component';
+
 
 export const routes: Routes = [
     {
@@ -23,9 +25,14 @@ export const routes: Routes = [
         path:"gestion",
         component:AddGamePageComponent
     },
-    {
-        path:"juegos/:id",
+    { 
+      path:"juegos/:id",
         component: GameDetailComponent
+    },
+  {
+        path:"editar",
+        component:EditGamePageComponent
+
     }
 
 ];

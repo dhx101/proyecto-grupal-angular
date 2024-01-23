@@ -23,17 +23,15 @@
       "image": "https://m.media-amazon.com/images/I/81YdZRdE1BL._AC_UF894,1000_QL80_.jpg"
     },
     {
-
-       "id": 3,
-       "title": "FIFA 22",
-       "genre": "Sports",
-       "platform": "PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, PC",
-       "release_date": "2021-10-01",
-       "description": "Experience the latest installment in the popular FIFA football simulation series.",
-       "developer": "EA Vancouver",
-       "publisher": "Electronic Arts",
-       "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/338386_00_1.jpg"
-
+      "id": 3,
+      "title": "FIFA 22",
+      "genre": "Sports",
+      "platform": "PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, PC",
+      "release_date": "2021-10-01",
+      "description": "Experience the latest installment in the popular FIFA football simulation series.",
+      "developer": "EA Vancouver",
+      "publisher": "Electronic Arts",
+      "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/338386_00_1.jpg"
     },
     {
       "id": 4,
@@ -67,7 +65,6 @@
       "developer": "Atari",
       "publisher": "Atari",
       "image": "https://uvejuegos.com/img/caratulas/17540/atari-etdgry.jpg"
-      
     },
     {
       "id": "b5fa",
@@ -79,7 +76,17 @@
       "developer": " Naughty Dog",
       "publisher": "PlayStation Studios",
       "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94732608?x=600&y=450&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=600&ey=450&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=600&cdy=450"
-     
+    },
+    {
+      "title": "",
+      "genre": "",
+      "platform": "",
+      "release_date": "",
+      "description": "",
+      "developer": "",
+      "publisher": "",
+      "image": "",
+      "id": 6
     }
   ]
 }

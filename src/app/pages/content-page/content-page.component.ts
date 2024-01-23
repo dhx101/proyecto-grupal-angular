@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { ApiService } from '../../services/api.service';
+import { FilterGameComponent } from '../../filter-game/filter-game.component';
 
 @Component({
   selector: 'app-content-page',
   standalone: true,
-  imports: [],
+  imports: [FilterGameComponent],
   providers: [ApiService],
   templateUrl: './content-page.component.html',
   styleUrl: './content-page.component.css'

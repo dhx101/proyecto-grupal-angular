@@ -19,10 +19,6 @@ export const routes: Routes = [
     },
 
     {
-        path:"contact",
-        component:ContactPageComponent
-    },
-    {
         path:"gestion",
         component:AddGamePageComponent
     },

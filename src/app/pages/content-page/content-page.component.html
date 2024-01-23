@@ -1,18 +1,17 @@
 <app-filter-game></app-filter-game>
 
 <div class="gallery">
-    <button (click)="logMe()">Log</button>
-@for(game of games; track $index){
-    <div class="div">
-        <h2>{{game.title}}</h2>
-        <img class ="gameImage" src="{{game.image}}" alt="{{game.title}}">
-        <h3>Género: {{game.genre}}</h3>
-        <p>Disponible para: {{game.platform}}</p>
-        <button (click)="setGameToEdit(game)" [routerLink]="['/editar']" routerLinkActive="router-link-active">Editar</button>
-        <!-- lógica del boton de "Ver más" abajo -->
-        <button [routerLink]="['/juegos/' + game.id]">Ver más</button>
-    </div>
-}
+  @for(game of games; track $index){
+  <div class="div">
+    <h2>{{ game.title }}</h2>
+    <img class="gameImage" src="{{ game.image }}" alt="{{ game.title }}" />
+    <h3>Género: {{ game.genre }}</h3>
+    <p>Disponible para: {{ game.platform }}</p>
+    <button (click)="setGameToEdit(game)" [routerLink]="['/editar/' + game.id]">
+      Editar
+    </button>
+    <!-- lógica del boton de "Ver más" abajo -->
+    <button [routerLink]="['/juegos/' + game.id]">Ver más</button>
+  </div>
+  }
 </div>
-
-

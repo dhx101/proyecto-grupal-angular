@@ -6,34 +6,30 @@ import { AddGamePageComponent } from './pages/add-game-page/add-game-page.compon
 import { GameDetailComponent } from './pages/game-detail/game-detail.component';
 import { EditGamePageComponent } from './pages/edit-game-page/edit-game-page.component';
 
-
 export const routes: Routes = [
-    {
-        path:"",
-        component:HomePageComponent
-    },
-    {
-        path:"juegos",
-        component:ContentPageComponent
-    },
-    {
-        path:"contact",
-        component:ContactPageComponent
-    },
-
-    {
-        path:"gestion",
-        component:AddGamePageComponent
-    },
-    { 
-      path:"juegos/:id",
-        component: GameDetailComponent
-    },
   {
-        path:"editar",
-        component:EditGamePageComponent
+    path: '',
+    component: HomePageComponent,
+  },
+  {
+    path: 'juegos',
+    component: ContentPageComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactPageComponent,
+  },
 
-    }
-
+  {
+    path: 'gestion',
+    component: AddGamePageComponent,
+  },
+  {
+    path: 'juegos/:id',
+    component: GameDetailComponent,
+  },
+  {
+    path: 'editar/:id',
+    component: EditGamePageComponent,
+  },
 ];
- 

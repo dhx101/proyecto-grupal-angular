@@ -11,14 +11,23 @@ import { RouterLink } from '@angular/router';
   styleUrl: './content-page.component.css',
 })
 export class ContentPageComponent {
+
+  @Input() games:any;
+  constructor(private apiService:ApiService){
+    this.apiService.getGames().subscribe((res:any)=>{
+
   games: any;
   constructor(private apiService: ApiService) {}
   ngOnInit() {
     this.apiService.getGames().subscribe((res: any) => {
+
       this.games = res;
       console.log(res);
     });
   }
+
+
+
   logMe() {
     console.log();
   }
@@ -26,4 +35,5 @@ export class ContentPageComponent {
     this.apiService.setItemToEdit(game);
     console.log(game);
   };
+
 }

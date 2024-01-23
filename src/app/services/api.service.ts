@@ -1,12 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
+
 @Injectable({
   providedIn: 'root',
 })
 export class ApiService {
   public baseUrl: string = 'http://localhost:3000';
-  public gamesUrl: string = `${this.baseUrl}/games`;
+  public gamesUrl: string = `${this.baseUrl}/games`
 
   constructor(private http: HttpClient) {}
 

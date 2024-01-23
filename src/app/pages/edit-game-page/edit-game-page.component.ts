@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ApiService } from '../../services/api.service';
 import { FormsModule } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-edit-game-page',
@@ -11,22 +11,42 @@ import { RouterLink } from '@angular/router';
   styleUrl: './edit-game-page.component.css',
 })
 export class EditGamePageComponent {
-  constructor(private servicio: ApiService) {}
-  elementToEdit: any = {};
+  gameId: any = 1;
+  game: any = {
+    id: '',
+    title: '',
+    genre: '',
+    platform: '',
+    relese_date: '',
+    description: '',
+    developer: '',
+    publisher: '',
+    image: '',
+  };
+  constructor(private route: ActivatedRoute, private apiService: ApiService) {}
+
   ngOnInit() {
-    this.elementToEdit = this.servicio.getItemToEdit();
-    console.log(this.elementToEdit);
-    
+    this.route.paramMap.subscribe((params) => {
+      this.gameId = params.get('id');
+      this.apiService.gamesById(this.gameId).subscribe((res: any) => {
+        this.game = res;
+      });
+    });
+    this.game = this.apiService.getItemToEdit();
+    console.log(this.game);
   }
 
-  logMe() {
-    console.log(this.elementToEdit);
-  }
-  editGame = () => {
-    this.servicio
-      .modificarGames(this.elementToEdit.id, this.elementToEdit)
+  editItem = () => {
+    this.apiService
+      .editItem(this.game, this.game.id)
       .subscribe();
-      console.log("HECHO");
-      
+
+    console.log("Hecho");
+
+    
   };
+
+  logMe() {
+    console.log(this.game);
+  }
 }

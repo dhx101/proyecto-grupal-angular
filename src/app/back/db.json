@@ -78,6 +78,7 @@
       "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94732608?x=600&y=450&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=600&ey=450&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=600&cdy=450"
     },
     {
+
       "id":6,
       "title": "Star Wars Jedi: Fallen Order",
       "genre": "Action-Adventure",
@@ -87,6 +88,7 @@
       "developer": "EA Vancouver",
       "publisher": "Electronic Arts",
       "image": "https://media.game.es/COVERV2/3D_L/166/166125.png"
+
     }
   ]
 }

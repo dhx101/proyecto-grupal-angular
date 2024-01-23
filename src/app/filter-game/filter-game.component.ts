@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 
 @Component({
   selector: 'app-filter-game',
@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class FilterGameComponent {
 
+
+  @Output () filterEmitter = new EventEmitter
+  filter (){
+
+
+  }
 }

@@ -1,6 +1,7 @@
 <app-filter-game></app-filter-game>
 
 <div class="gallery">
+    <button (click)="logMe()">Log</button>
 @for(game of games; track $index){
     <div class="div">
         <h2>{{game.title}}</h2>
@@ -9,6 +10,7 @@
         <p>Disponible para: {{game.platform}}</p>
         <p>{{game.description}}</p>
         <p>Fecha de lanzamiento: {{game.release_date}}</p>
+        <button (click)="setGameToEdit(game)" [routerLink]="['/editar']" routerLinkActive="router-link-active">Editar</button>
     </div>
 }
 </div>

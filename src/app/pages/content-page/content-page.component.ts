@@ -10,12 +10,13 @@ import { ApiService } from '../../services/api.service';
   styleUrl: './content-page.component.css'
 })
 export class ContentPageComponent {
-  games:any;
+  @Input() games:any;
   constructor(private apiService:ApiService){
     this.apiService.getGames().subscribe((res:any)=>{
       this.games = res;
       console.log(res)
     })
   }
+
 }
 

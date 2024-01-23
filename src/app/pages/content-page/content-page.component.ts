@@ -1,11 +1,19 @@
 import { Component } from '@angular/core';
 import { ApiService } from '../../services/api.service';
+
+import { FilterGameComponent } from '../../filter-game/filter-game.component';
+
 import { RouterLink } from '@angular/router';
+
 
 @Component({
   selector: 'app-content-page',
   standalone: true,
+
+  imports: [FilterGameComponent],
+
   imports: [RouterLink],
+
   providers: [ApiService],
   templateUrl: './content-page.component.html',
   styleUrl: './content-page.component.css',

@@ -1,0 +1,103 @@
+
+  
+  /* Estilos de cada elemento del juego */
+  .div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .gameImage {
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  p {
+    color: #777;
+  }
+
+
+  .form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cuestionario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  label {
+    padding-top: 10px;
+  }
+  section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .boton {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+  }
+
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+
+  input {
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+
+  textarea {
+    padding: 8px 13px;
+    border-radius: 4px;
+    resize: none;
+  }
+  .input-box {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    font-weight: 900;
+    color: rgb(10, 10, 10);
+  }

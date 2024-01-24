@@ -33,6 +33,10 @@ export class ApiService {
     return this.http.patch(`${this.baseUrl}/games/${productToEdit}`, item);
   };
 
+  public deleteItem = (productToDelete: string) => {
+    return this.http.delete(`${this.baseUrl}/games/${productToDelete}`)
+  }
+
   public item: any;
   public setItemToEdit = (data: any) => {
     this.item = data;

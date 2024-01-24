@@ -63,11 +63,12 @@
   </div>
   <div class="boton">
     <button
-
+    [routerLink]="['/juegos/']" routerLinkActive="router-link-active" 
       (click)="editItem()"
     >
       Editar
     </button>
+    <button (click)="deleteItem()" [routerLink]="['/juegos']" routerLinkActive="router-link-active" >Eliminar</button>
   </div>
 </div>
 <div class="principal">

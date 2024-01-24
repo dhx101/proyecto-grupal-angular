@@ -1,10 +1,9 @@
 
-<div>
+<div class="search">
 <input type="text" placeholder = "Busca tu videojuego"  [(ngModel)]="searchGame">
 <button (click)="searchGames()">Buscar</button>
 <button (click)="restablecer()">Volver</button>
 </div>
-<button (click)="logMe()">Log</button>
 <div class="gallery">
 <div class="gallery">
   @for(game of games; track $index){

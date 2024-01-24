@@ -17,7 +17,7 @@ export class EditGamePageComponent {
     title: '',
     genre: '',
     platform: '',
-    relese_date: '',
+    release_date: '',
     description: '',
     developer: '',
     publisher: '',

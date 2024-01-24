@@ -37,15 +37,17 @@ export class EditGamePageComponent {
   }
 
   editItem = () => {
-    this.apiService
-      .editItem(this.game, this.game.id)
-      .subscribe();
+    this.apiService.editItem(this.game, this.game.id).subscribe();
 
-    console.log("Hecho");
-
-    
+    console.log('Hecho');
   };
 
+  deleteItem = () => {
+    console.log(this.game.id);
+    
+    this.apiService.deleteItem(this.game.id).subscribe();
+  };
+  
   logMe() {
     console.log(this.game);
   }

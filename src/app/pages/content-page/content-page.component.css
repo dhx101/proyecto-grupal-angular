@@ -65,3 +65,12 @@
     }
   }
   
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .search input {
+    padding: 5px;
+  }

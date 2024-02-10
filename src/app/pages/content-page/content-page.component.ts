@@ -8,19 +8,15 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-content-page',
   standalone: true,
-
   imports: [RouterLink, FilterGameComponent, FormsModule],
-
   providers: [ApiService],
+
   templateUrl: './content-page.component.html',
   styleUrl: './content-page.component.css',
 })
+
 export class ContentPageComponent {
   @Input() games: any;//---
- 
-
-  
-
   constructor(private apiService: ApiService) {
 
  
@@ -67,3 +63,4 @@ searchGame: any = '';
   }
       
 }
+

@@ -32,4 +32,5 @@ export const routes: Routes = [
     path: 'editar/:id',
     component: EditGamePageComponent,
   },
+
 ];

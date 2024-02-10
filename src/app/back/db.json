@@ -1,26 +1,27 @@
 {
   "games": [
     {
-      "id": 1,
-      "title": "The Legend of Zelda: Breath of the Wild",
-      "genre": "Action-Adventure",
-      "platform": "Nintendo Switch",
-      "release_date": "2017-03-03",
-      "description": "Embark on a journey as Link in the open-world adventure of Hyrule.",
-      "developer": "Nintendo EPD",
-      "publisher": "Nintendo",
-      "image": "https://m.media-amazon.com/images/I/81KGsbq8ekL.jpg"
+
+       "id": 1,
+       "title": "The Legend of Zelda: Breath of the Wild",
+       "genre": "Action-Adventure",
+       "platform": "Nintendo Switch",
+       "release_date": "2017-03-03",
+       "description": "Embark on a journey as Link in the open-world adventure of Hyrule.",
+       "developer": "Nintendo EPD",
+       "publisher": "Nintendo",
+       "image" : "https://m.media-amazon.com/images/I/81KGsbq8ekL.jpg" 
     },
     {
-      "id": 2,
-      "title": "Red Dead Redemption 2",
-      "genre": "Action-Adventure",
-      "platform": "PlayStation 4, Xbox One, PC",
-      "release_date": "2018-10-26",
-      "description": "Arthur Morgan and the Van der Linde gang face the challenges of the Wild West.",
-      "developer": "Rockstar Studios",
-      "publisher": "Rockstar Games",
-      "image": "https://m.media-amazon.com/images/I/81YdZRdE1BL._AC_UF894,1000_QL80_.jpg"
+       "id": 2,
+       "title": "Red Dead Redemption 2",
+       "genre": "Action-Adventure",
+       "platform": "PlayStation 4, Xbox One, PC",
+       "release_date": "2018-10-26",
+       "description": "Arthur Morgan and the Van der Linde gang face the challenges of the Wild West.",
+       "developer": "Rockstar Studios",
+       "publisher": "Rockstar Games",
+       "image": "https://m.media-amazon.com/images/I/81YdZRdE1BL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": 3,
@@ -32,17 +33,18 @@
       "developer": "EA Vancouver",
       "publisher": "Electronic Arts",
       "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/338386_00_1.jpg"
+
     },
     {
-      "id": 4,
-      "title": "Cyberpunk 2077",
-      "genre": "Action RPG",
-      "platform": "PlayStation 4, Xbox One, PC",
-      "release_date": "2020-12-10",
-      "description": "Explore the futuristic open world of Night City in this action-packed RPG.",
-      "developer": "CD Projekt",
-      "publisher": "CD Projekt",
-      "image": "https://media.vandal.net/m/20029/cyberpunk-2077-201961217172698_1.jpg"
+       "id": 4,
+       "title": "Cyberpunk 2077",
+       "genre": "Action RPG",
+       "platform": "PlayStation 4, Xbox One, PC",
+       "release_date": "2020-12-10",
+       "description": "Explore the futuristic open world of Night City in this action-packed RPG.",
+       "developer": "CD Projekt",
+       "publisher": "CD Projekt",
+       "image":"https://media.vandal.net/m/20029/cyberpunk-2077-201961217172698_1.jpg"
     },
     {
       "id": 5,
@@ -58,7 +60,7 @@
     {
       "id": "6a95",
       "title": "E.T.",
-      "genre": "Mierder",
+      "genre": "La casi destrucción de los videojuegos",
       "platform": "Atari 2600",
       "release_date": "1982",
       "description": "Juego considerado de los peores de la historia",
@@ -87,6 +89,7 @@
       "developer": "EA Vancouver",
       "publisher": "Electronic Arts",
       "image": "https://media.game.es/COVERV2/3D_L/166/166125.png"
+
     }
   ]
 }

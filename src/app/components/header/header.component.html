@@ -1,14 +1,18 @@
 <header>
-  <div>
-    <h1>Game List</h1>
-  </div>
-  <div>
-    <a [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
-    <a [routerLink]="['/content']" routerLinkActive="router-link-active"
-      >Juegos</a
-    >
-    <a [routerLink]="['/contact']" routerLinkActive="router-link-active"
-      >Contacto</a
-    >
-  </div>
+  <h1>Game List</h1>
+  <ul class="header-nav">
+    <li class="header-nav__item">
+      <a [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
+    </li>
+    <li class="header-nav__item">
+      <a [routerLink]="['/content']" routerLinkActive="router-link-active"
+        >Juegos</a
+      >
+    </li>
+    <li class="header-nav__item">
+      <a [routerLink]="['/contact']" routerLinkActive="router-link-active"
+        >Contacto</a
+      >
+    </li>
+  </ul>
 </header>
